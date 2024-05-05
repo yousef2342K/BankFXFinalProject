@@ -1,0 +1,41 @@
+/* Style.css */
+
+.menu-container {
+    background-image: url('bankfx/bank.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.1) , 10, 0, 0, 4 );
+}
+
+.menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu-button {
+    -fx-min-width: 200px; /* Change 'width' to '-fx-min-width' */
+    -fx-min-height: 40px; /* Change 'height' to '-fx-min-height' */
+    -fx-background-color: #3498db; /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand; /* Change 'pointer' to 'hand' */
+}
+
+.menu-button:hover {
+    -fx-background-color: #2980b9; /* Hover background color */
+}
+

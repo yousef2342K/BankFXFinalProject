@@ -1,0 +1,57 @@
+
+/* 
+    Created on : May 3, 2024, 9:18:32 PM
+    Author     : JoEKhalid
+*/
+
+/* styles.css */
+
+.root{
+    -fx-background-color: lightblue;
+}
+.button{
+    -fx-background-color: darkslateblue;
+    -fx-text-fill: white;
+    -fx-font-size: large;
+}
+
+.label{
+    -fx-font: normal bold 20px 'serif';
+}
+
+.label2{
+    -fx-font: normal italic 30px 'serif';
+}
+.label3{
+    -fx-font: normal bold 14px 'serif';
+}
+
+.button {
+    -fx-font-size: 14pt;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-font-size: 9pt;
+}
+
+/* Login page */
+#login-pane {
+    -fx-alignment: center;
+    -fx-padding: 20px;
+}
+
+/* Create Account page */
+#layout{
+    -fx-alignment: center;
+    -fx-padding: 8px;
+}
+
+/* Main page */
+#main-pane {
+    -fx-alignment: center;
+    -fx-padding: 20px;
+}
+
+
